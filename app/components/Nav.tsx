@@ -2,8 +2,8 @@ import {navLinks} from '@/app/constants/index'
 import Image from 'next/image'
 const Nav = () => {
   return (
-    <header className='padding-x py-8  shadow absolute z-10 w-full'>
-      <nav className=' shadow flex justify-between items-center p-1 max-container'>
+    <header id='blurNav' className='padding-x py-8  absolute   z-10 w-full'>
+      <nav className='  flex justify-between items-center p-1 max-container'>
         <a href='/'>
           <Image
             src="/assets/images/header-logo.svg"
@@ -12,17 +12,17 @@ const Nav = () => {
             alt="Logo"
          />
         </a>
-        <ul className=" shadow flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+        <ul className="  flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           {navLinks.map((eachLink, index) => (
-            <li >
-              <a href={eachLink.href}
-                 className='shadow font-montserrat leading-normal text-lg text-slate-gray' key={eachLink.label}>{eachLink.label}
+            <li key={eachLink.label} >
+              <a key={eachLink.label} href={eachLink.href}
+                 className=' font-montserrat leading-normal text-lg text-slate-gray' >{eachLink.label}
             </a>
             </li>
             
           ))}
         </ul>
-        <div className='shadow lg:hidden p-1'>
+        <div className=' lg:hidden p-1'>
           <Image
             src='/assets/icons/hamburger.svg'
             width={25}

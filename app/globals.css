@@ -12,6 +12,11 @@
   scroll-behavior: smooth;
 }
 
+/* #blurNav{
+  background-color: transparent;
+  backdrop-filter: blur(30px);
+} */
+
 @layer components {
   .max-container {
     max-width: 1440px;
