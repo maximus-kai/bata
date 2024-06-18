@@ -7,7 +7,7 @@ interface ButtomMap{
 
 const Button:React.FC<ButtomMap> = ({label,iconUrl}) => {
   return (
-      <button className='border border-coral-red flex justify-center gap-2 px-7 py-4 text-lg bg-coral-red text-white rounded-full leading-none font-montserrat items-center'>
+      <button className='border max-sm:w-full border-coral-red flex justify-center gap-2 px-7 py-4 text-lg bg-coral-red text-white rounded-full leading-none font-montserrat items-center'>
           {label}
           <Image
               className='shadow ml-2 rounded-full'

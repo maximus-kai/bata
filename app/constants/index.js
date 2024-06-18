@@ -2,10 +2,10 @@ import { facebook, instagram, shieldTick, support, truckFast, twitter } from "@/
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "@/public/assets/images";
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "#home", label: "Wale" },
+    { href: "#about-us", label: "Gbo Nipa wa" },
+    { href: "#products", label: "Awon Oja wa" },
+    { href: "#contact-us", label: "Pe wa sori ago" },
 ];
 
 export const shoes = [
@@ -24,9 +24,9 @@ export const shoes = [
 ];
 
 export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
+    { value: '1k+', label: 'Orisi Oja' },
+    { value: '500+', label: 'Ile Itaja' },
+    { value: '250k+', label: 'Onibara' },
 ];
 
 export const products = [

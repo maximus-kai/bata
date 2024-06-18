@@ -2,7 +2,7 @@ import {navLinks} from '@/app/constants/index'
 import Image from 'next/image'
 const Nav = () => {
   return (
-    <header id='blurNav' className='padding-x py-8  absolute   z-10 w-full'>
+    <header className='padding-x py-8  bg-white  fixed z-30 w-full'>
       <nav className='  flex justify-between items-center p-1 max-container'>
         <a href='/'>
           <Image
