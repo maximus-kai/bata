@@ -21,7 +21,7 @@ const Hero = () => {
               Tuntun ti Wolu o 
             </span>
             <br /> 
-            <span className='text-coral-red inline-block font-bold mt-3'>Bata'</span> Shoes
+            <span className='text-coral-red inline-block font-bold mt-3'>Bata'&apos;'</span> Shoes
             
           </h1>
           <p className='  font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>E fo'ju yin lounje. O tuntun, O dun' wo, O tun wa dani lara ya fun igbadun aye kan yii</p>
