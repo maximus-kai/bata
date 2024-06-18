@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
         </div> 
         
-        <div className='  relative  max-xl:py-40 bg-cover bg-center rounded-full bg-[url("/assets/images/collection-background.svg")] bg-coral-red flex-1  flex justify-center xl:min-h-screen items-center'>
+        <div className='  relative  max-xl:py-40 bg-cover bg-center  bg-[url("/assets/images/collection-background.svg")] bg-coral-red flex-1  flex justify-center xl:min-h-screen items-center'>
           
         <Image
             className='  object-contain relative z-10'
