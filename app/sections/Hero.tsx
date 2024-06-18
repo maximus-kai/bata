@@ -51,7 +51,7 @@ const Hero = () => {
             <div key={index}>
               <ShoeCard
                 imgURL={eachShoe.thumbnail}
-                changeBigShoeImage={() => {setBigShoeImg(eachShoe.bigShoe) }}
+                changeBigShoeImage={() => {setBigShoeImg(eachShoe.thumbnail) }}
                 bigShoeImg={bigShoeImg} />
             </div>
                       ))}

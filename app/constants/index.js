@@ -59,17 +59,17 @@ export const products = [
 export const services = [
     {
         imgURL: truckFast,
-        label: "Free shipping",
+        label: "Nkan Akoko",
         subtext: "Enjoy seamless shopping with our complimentary shipping service."
     },
     {
         imgURL: shieldTick,
-        label: "Secure Payment",
+        label: "Nkan Ikeji",
         subtext: "Experience worry-free transactions with our secure payment options."
     },
     {
         imgURL: support,
-        label: "Love to help you",
+        label: "Nkan Eketa",
         subtext: "Our dedicated team is here to assist you every step of the way."
     },
 ];
