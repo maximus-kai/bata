@@ -79,7 +79,7 @@ export const reviews = [
         imgURL: customer1,
         customerName: 'Morich Brown',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "Awon onitaja yi gbiyanju gan lori tita ati fifi okan ati irele si oja yi lai fi ota sinu ibon ti won gbe dani lati se ni dan dan funwa lati ra"
     },
     {
         imgURL: customer2,
