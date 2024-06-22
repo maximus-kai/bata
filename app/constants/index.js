@@ -77,15 +77,21 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Ase Alakoko',
         rating: 4.5,
         feedback: "Awon onitaja yi gbiyanju gan lori tita ati fifi okan ati irele si oja yi lai fi ota sinu ibon ti won gbe dani lati se ni dan dan funwa lati ra"
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'Ikeji Ase',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "Ase ni emi ati enikekeni ti o ba padi pinu lati ra awon panti bata ti awon were yin ta!"
+    },
+    {
+        imgURL: shoe6,
+        customerName: 'Sufu Eleeketa',
+        rating: 4.5,
+        feedback: "Ki ni omode ara mi mo, afi kinti ji, kin jeun, kin si wo bata sun, aye o ye ko le to be jube lo, mio mo nkan ti eyin eeyan wa kiri!"
     }
 ];
 
