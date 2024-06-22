@@ -2,12 +2,14 @@ import Image from 'next/image'
 import React from 'react'
 interface ButtonProps{
     label: string;
-    iconUrl: any;
+    iconUrl?: any;
+    BgColor?:string
+    TxColor?:string
 }
 
-const Button:React.FC<ButtonProps> = ({label,iconUrl}) => {
+const Button:React.FC<ButtonProps> = ({label,iconUrl,BgColor,TxColor}) => {
   return (
-      <button className='border max-sm:w-full border-coral-red flex justify-center gap-2 px-7 py-4 text-lg bg-coral-red text-white rounded-full leading-none font-montserrat items-center'>
+      <button className={`border max-sm:w-full ${BgColor || 'border-coral-red'} ${TxColor ||'text-white'} flex justify-center gap-2 px-7 py-4 text-lg bg-coral-red  rounded-full leading-none font-montserrat items-center`}>
           {label}
           <Image
               className='shadow ml-2 rounded-full'
