@@ -18,7 +18,7 @@ const CustomerReviews = () => {
         </div>
         <div className='  flex gap-20 max-sm:gap-4 justify-center flex-wrap flex-row'>
           {reviews.map((eachReview) => (
-            <CustomerCard {...eachReview} />
+            <CustomerCard key={eachReview.customerName} {...eachReview} />
           ))}
         </div>
       </section>
