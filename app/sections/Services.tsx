@@ -6,7 +6,7 @@ import ServicesCard from '../components/ServicesCard'
 
 const Services = () => {
   return (
-    <section className="  padding-x py-10">
+    <section className="padding-x py-10">
       <section className=' max-container flex flex-row flex-wrap  max-lg:items-center max-lg:gap-8 justify-center gap-4'>
           {
             services.map((eachService) => (

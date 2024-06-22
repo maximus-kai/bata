@@ -10,8 +10,8 @@ const SuperQuality = () => {
       <section id='about-us' className='flex max-container flex-row max-xl:flex-col  w-full justify-between gap-10 items-center'>
         
           <div className='w-full flex flex-col '>
-           <h1 className='font-bold capitalize font-palanquin text-4xl leading-tight'> Idunu wan ni lati pese           
-         <span className='text-coral-red'> Aini Afiwe</span> bata     
+           <h1 className='font-bold capitalize font-palanquin text-4xl leading-tight'> Idunu wa ni lati pese           
+         <span className='text-coral-red'> Akoni</span> bata, tio ni Afiwe     
         </h1>
          <p className='leading-tight mt-2 text-slate-gray font-montserrat '>
          Awon bata ti a ni inu awon ile itaja wa kaakakiri agbaye o se kon le, won je gbajumo laarin awon egbe won, won sii se fi yangan lawujo, sibe sibe ti e ba wo awon bata yi, e maa ri pe gbogbo isoro yin yio pada ma see ni okankan ti yio fi tan patapata
