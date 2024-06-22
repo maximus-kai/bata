@@ -25,8 +25,7 @@ const SpecialOffers = () => {
             <p className='leading-tight mt-2 text-slate-gray font-montserrat  '>Je igbadun awon oja tuntun ti o ti jade si owo ara ilu ninu iolongo tuntun ti a mo si bonaza tio jade ni ojo kini osu tia wa yi ni asiko oru oganjan paa</p>
             <p className='leading-tight mt-3 text-slate-gray font-montserrat'>abala keji oro inu ipele akoko ley. Je igbadun awon oja tuntun ti o ti jade si owo ara ilu ninu iolongo tuntun ti a mo si bonaza tio jade ni ojo kini osu tia wa yi ni asiko oru oganjan paa</p>
           </div>
-          <div className=' flex gap-4 mt-8'>
-
+          <div className='flex flex-row gap-4 mt-7 max-sm:flex-col'>
             <Button label='Raa Sile bayii' iconUrl={arrowRight} />
             <Button label='Gbo nipa tuntun' TxColor='text-slate-gray' BgColor='bg-white' iconUrl={arrowRight} />
           </div>
