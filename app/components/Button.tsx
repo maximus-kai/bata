@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 interface ButtonProps{
     label: string;
-    iconUrl?: any;
+    iconUrl: any;
     BgColor?:string
     TxColor?:string
 }
